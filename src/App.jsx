@@ -1,7 +1,7 @@
 import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import Home from "./components/home";
+import Skills from "./components/skills";
 import Nav from "./components/nav";
 import Project from "./components/project";
 import "./App.css";
@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <Header />
       <Nav />
-      <Home />
       <About />
+      <Skills />
       <Project />
       <Contact />
       <Footer />

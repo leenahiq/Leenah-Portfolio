@@ -4,7 +4,7 @@ import ME from "../assets/img.jpg";
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Leenah Iqbal</h1>
