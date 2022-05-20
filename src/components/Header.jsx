@@ -42,9 +42,10 @@ const Header = () => {
         {/* <div className="me">
           <img src={ME} alt="img" />
         </div> */}
-        {/* <a href="#contact" className="scroll_down">
+
+        <a href="#contact" className="scroll_down">
           Contact
-        </a> */}
+        </a>
       </div>
     </header>
   );
