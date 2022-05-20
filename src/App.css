@@ -96,7 +96,7 @@ img {
 }
 
 /* tablets or medium devices */
-@media screen and(max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -106,7 +106,7 @@ img {
 }
 
 /* mobile and smaller screen */
-@media screen and(max-width:600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

@@ -1,6 +1,6 @@
 import CV from "../assets/cv.pdf";
 import "../components/header.css";
-// import ME from "../assets/img.png";
+import ME from "../assets/img.jpg";
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 const Header = () => {
   return (
@@ -38,11 +38,9 @@ const Header = () => {
             <BsTwitter />
           </a>
         </div>
-
-        {/* <div className="me">
+        <div>
           <img src={ME} alt="img" />
-        </div> */}
-
+        </div>
         <a href="#contact" className="scroll_down">
           Contact
         </a>
