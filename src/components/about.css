@@ -31,6 +31,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  height: 50vh;
+  width: 45vw;
+  margin-right: 20px;
 }
 .about-card {
   background: var(--color-bg-varient);
