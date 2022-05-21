@@ -34,7 +34,7 @@ header {
   height: 2rem;
   background: var(--color-primary);
 }
-img {
+.header__container img {
   width: 22rem;
   height: 30rem;
   left: 80px;
