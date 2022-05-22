@@ -35,8 +35,8 @@ header {
   background: var(--color-primary);
 }
 .header__container img {
-  height: 35rem;
-  width: 50rem;
+  height: 30rem;
+  width: 25rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
   margin: auto;

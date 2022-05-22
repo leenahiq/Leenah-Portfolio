@@ -15,7 +15,7 @@ html {
 :root {
   --color-bg: black;
   --color-bg-varient: #2c2c6c;
-  --color-primary: rgb(77, 181, 255);
+  --color-primary: rgba(77, 181, 255, 0.921);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -23,7 +23,7 @@ html {
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --conatainer-width-ms: 90%;
+  --conatainer-width-sm: 90%;
 }
 ::-webkit-scrollbar {
   display: none;

@@ -35,12 +35,17 @@
   align-items: center;
 
   gap: 1.5rem;
-  height: 50vh;
-  width: 45vw;
+  /* height: 30vh;
+  width: 20vw; */
   margin-right: 20px;
 }
 .about-card {
-  background: rgb(77, 181, 255);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
 
   color: var(--color-white);
   border: 1px solid transparent;
@@ -58,6 +63,7 @@
 }
 .about-card h5 {
   font-size: 1.5rem;
+  color: var(--color-bg-varient);
 }
 .about-card small {
   font-size: 0.9rem;
@@ -96,9 +102,9 @@
 
   .about_content {
     text-align: center;
+    margin-left: 20px;
   }
   .about-card {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: auto;
   }
 }
