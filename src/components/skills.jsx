@@ -2,7 +2,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 import "../components/skills.css";
 const Skills = () => {
   return (
-    <section id="skills">
+    <section className="skills" id="skills">
       <h2>Skills</h2>
 
       <div className="container experience_container">
@@ -44,7 +44,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="experience_backend">
-          <h3>backend Developement</h3>
+          <h3>Backend Developement</h3>
 
           <div className="experience_content">
             <article className="experience_details">

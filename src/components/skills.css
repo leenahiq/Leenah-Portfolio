@@ -12,10 +12,11 @@
     transparent
   );
   padding: 2rem 3rem;
-  border-radius: 2rem;
+  border-radius: 1.3rem;
   border: 1px solid transparent;
   transition: var(--transition);
-  margin-top: 40px;
+
+  margin-top: 60px;
 }
 .experience_container > div:hover {
   background: transparent;
@@ -39,9 +40,11 @@
 @media screen and (max-width: 1024px) {
   .experience_container {
     grid-template-columns: 1fr;
+
+    padding: 1.4rem;
   }
   .experience_container > div {
-    width: 80%;
+    width: 60%;
     padding: 2rem;
     margin: auto;
   }
