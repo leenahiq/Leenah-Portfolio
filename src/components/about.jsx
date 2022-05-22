@@ -37,11 +37,6 @@ const About = () => {
               </small>
             </article>
           </div>
-          <p>
-            I like music, travelling, food, photography and love being with
-            friends and family.I'm afable, approachable and always delighted to
-            help others{" "}
-          </p>
         </div>
       </div>
     </section>
