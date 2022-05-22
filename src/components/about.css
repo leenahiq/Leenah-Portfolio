@@ -43,7 +43,7 @@
   background: linear-gradient(
     45deg,
     transparent,
-    var(--color-primary),
+    var(--color-bg-varient),
     transparent
   );
 
@@ -63,7 +63,7 @@
 }
 .about-card h5 {
   font-size: 1.5rem;
-  color: var(--color-bg-varient);
+  color: var(--color-primary);
 }
 .about-card small {
   font-size: 0.9rem;
