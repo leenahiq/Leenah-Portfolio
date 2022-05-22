@@ -1,0 +1,16 @@
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio_items {
+  background: var(--color-bg-variet);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  transition: var(--transition);
+  height: 55vh;
+}
+.portfolio_items:hover {
+}
