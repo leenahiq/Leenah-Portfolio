@@ -1,5 +1,5 @@
 nav {
-  background: rgba(4, 35, 58, 0.129);
+  background: rgba(60, 65, 69, 0.454);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -22,5 +22,5 @@ nav a {
   font-size: 1.1rem;
 }
 nav a:hover {
-  background: rgba(4, 35, 58, 0.325);
+  background: rgba(72, 91, 105, 0.325);
 }
