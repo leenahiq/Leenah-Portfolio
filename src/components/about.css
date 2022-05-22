@@ -40,8 +40,9 @@
   margin-right: 20px;
 }
 .about-card {
-  background: var(--color-primary);
-  color: var(--color-bg-varient);
+  background: rgb(77, 181, 255);
+
+  color: var(--color-white);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -56,10 +57,10 @@
   color: var(--color-white);
 }
 .about-card h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .about-card small {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* medium devices  */
