@@ -12,20 +12,34 @@ const Contact = () => {
             <MdEmail />
             <h4>Email</h4>
             <h5>Have you got some questions?</h5>
-            <a href="leeangel_huzy@icloud.com">send a message</a>
+            <a href="leeangel_huzy@icloud.com" target="_blank" rel="noreferrer">
+              send a message
+            </a>
           </article>
           <article className="contact_option">
             <BsLinkedin />
             <h4>LinkedIn</h4>
             <h5>Stay connected or have a liitle chat!</h5>
 
-            <a href="https://www.linkedin.com/messaging/">send a message</a>
+            <a
+              href="https://www.linkedin.com/messaging/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              send a message
+            </a>
           </article>
           <article className="contact_option">
             <BsTwitter />
             <h4>Twitter</h4>
-            <h5>Follow me or drop me a message!</h5>
-            <a href="https://twitter.com/messages">send a message</a>
+            <h5>Follow me or drop me your message!</h5>
+            <a
+              href="https://twitter.com/messages"
+              target="_blank"
+              rel="noreferrer"
+            >
+              send a message
+            </a>
           </article>
         </div>
         <form action="">
