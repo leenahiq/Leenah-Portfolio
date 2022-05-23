@@ -7,3 +7,14 @@ footer {
 footer h3 {
   text-align: center;
 }
+section .contact {
+  overflow: hiden;
+  height: 100vh;
+}
+.footer_icon {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}

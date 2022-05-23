@@ -9,13 +9,21 @@ const Footer = () => {
         <BiCopyright />
       </h3>
       <div className="footer_icon">
-        <a href="/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/leenah-iqbal/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="/" target="_blank">
+        <a href="https://github.com/leenahiq" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
-        <a href="/" target="_blank">
+        <a
+          href="https://twitter.com/LeenahIqbal"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsTwitter />
         </a>
       </div>

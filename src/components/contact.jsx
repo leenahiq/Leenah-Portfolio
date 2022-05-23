@@ -1,9 +1,10 @@
 import "../components/contact.css";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin, BsTwitter } from "react-icons/bs";
+import Footer from "./footer";
 const Contact = () => {
   return (
-    <section id="contact">
+    <section className="contact" id="contact">
       <h2>Get In Touch</h2>
 
       <div className="container contact_container">
@@ -56,6 +57,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </section>
   );
 };
