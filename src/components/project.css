@@ -4,6 +4,10 @@
   gap: 2.5rem;
 }
 
+.portfolio_item-image .img {
+  height: 11rem;
+  width: 15rem;
+}
 .portfolio_items {
   background: var(--color-bg-variet);
   padding: 1.3rem;
