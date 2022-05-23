@@ -7,14 +7,65 @@
 .portfolio_item-image .img {
   height: 11rem;
   width: 15rem;
+  border-radius: 1rem;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-.portfolio_items {
-  background: var(--color-bg-variet);
+.portfolio_item {
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-bg-varient),
+    transparent
+  );
   padding: 1.3rem;
   border-radius: 2rem;
   border: 2px solid transparent;
   transition: var(--transition);
-  height: 55vh;
 }
-.portfolio_items:hover {
+.portfolio_item:hover {
+  border-color: var(--color-primary);
+  background: transparent;
+}
+
+.portfolio_item p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.portfolio_item h3 {
+  margin: 1rem 0 1.5rem;
+  text-align: center;
+  color: var(--color-primary);
+}
+.project-icon {
+  font-size: 1.5rem;
+}
+.portfolio_item-cta {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .portfolio_item-cta {
+    display: flex;
+  }
+  .portfolio_item-image .img {
+    margin-right: 15px;
+  }
+  .portfolio_item {
+    margin: auto;
+  }
 }
