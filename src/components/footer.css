@@ -1,20 +1,17 @@
 footer {
   margin-top: 2rem;
   width: 100%;
-  height: 15rem;
+  height: 9rem;
   background-color: var(--color-bg-varient);
 }
 footer h3 {
   text-align: center;
 }
-section .contact {
-  overflow: hiden;
-  height: 100vh;
-}
+
 .footer_icon {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 5.5rem;
 }

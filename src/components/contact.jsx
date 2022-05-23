@@ -4,7 +4,7 @@ import { BsLinkedin, BsTwitter } from "react-icons/bs";
 import Footer from "./footer";
 const Contact = () => {
   return (
-    <section className="contact" id="contact">
+    <section id="contact">
       <h2>Get In Touch</h2>
 
       <div className="container contact_container">
