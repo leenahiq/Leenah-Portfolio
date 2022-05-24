@@ -13,9 +13,7 @@ const Contact = () => {
             <MdEmail />
             <h4>Email</h4>
             <h5>Have you got some questions?</h5>
-            <a href="leeangel_huzy@icloud.com" target="_blank" rel="noreferrer">
-              send a message
-            </a>
+            <a href="mailto:leeangel_huzy@icloud.com">send a message</a>
           </article>
           <article className="contact_option">
             <BsLinkedin />
@@ -35,7 +33,7 @@ const Contact = () => {
             <h4>Twitter</h4>
             <h5>Follow me or drop me your message!</h5>
             <a
-              href="https://twitter.com/messages"
+              href="https://twitter.com/messages/"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +41,11 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form
+          target="_blank"
+          action="https://formsubmit.co/leeangel_huzy@icloud.com"
+          method="POST"
+        >
           <input type="text" name="name" placeholder="Full Name" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea

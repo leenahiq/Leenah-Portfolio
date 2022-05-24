@@ -55,9 +55,6 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  .contact {
-    overflow: scroll;
-  }
 }
 @media screen and (max-width: 600px) {
   .container.contact_container {
@@ -68,8 +65,5 @@ textarea {
   }
   form {
     margin: 20px;
-  }
-  .contact {
-    overflow: scroll;
   }
 }

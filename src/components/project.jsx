@@ -42,7 +42,12 @@ const Project = () => {
             >
               <BsGithub className="project-icon" />
             </a>
-            <a href="apple-website-clone-project.netlify.app" className="btn1 ">
+            <a
+              href="https://apple-website-clone-project.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn1 "
+            >
               <BsFillPlayCircleFill className="project-icon" />
             </a>
           </div>
