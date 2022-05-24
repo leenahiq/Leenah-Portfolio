@@ -6,11 +6,14 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Leenah Iqbal</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
+        <h2>Hello! I am</h2>
+        <h1 className="name">Leenah Iqbal</h1>
+        <h3>I am an aspiring software developer</h3>
         <div>
-          <h5>I love designing and building web applications </h5>
+          <h5>
+            I build full-Stack/MERN-Stack, UX/UI and responsive web application.
+          </h5>
+          <h5>I always look forward to explore and learn more!</h5>
         </div>
         <div className="cta">
           <a
