@@ -33,7 +33,7 @@ const Contact = () => {
             <h4>Twitter</h4>
             <h5>Follow me or drop me your message!</h5>
             <a
-              href="https://twitter.com/messages/"
+              href="https://twitter.com/messages/compose?recipient_id=@1528686285833003010"
               target="_blank"
               rel="noreferrer"
             >
