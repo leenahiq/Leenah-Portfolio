@@ -76,13 +76,15 @@ a:hover {
 }
 .btn {
   width: max-content;
-  display: inline-block;
+  /* display: inline-block; */
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+  background: transparent;
+  font-size: 18px;
 }
 .btn:hover {
   background: var(--color-white);
