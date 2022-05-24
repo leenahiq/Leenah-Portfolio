@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const Header = () => {
-  const animateText = {
+  const text = {
     initial: {
       opacity: 0,
     },
@@ -17,7 +17,7 @@ const Header = () => {
     },
   };
 
-  const animateOne = {
+  const animateStyle = {
     initial: {
       y: 50,
       opacity: 0,
@@ -37,20 +37,20 @@ const Header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <motion.div variants={animateText} initial="initial" animate="animate">
-          <motion.h2 variants={animateOne}>Hello! I am</motion.h2>
-          <motion.h1 variants={animateOne} className="name">
+        <motion.div variants={text} initial="initial" animate="animate">
+          <motion.h2 variants={animateStyle}>Hello! I am</motion.h2>
+          <motion.h1 variants={animateStyle} className="name">
             Leenah Iqbal
           </motion.h1>
-          <motion.h3 variants={animateOne}>
+          <motion.h3 variants={animateStyle}>
             I am an aspiring software developer
           </motion.h3>
           <div>
-            <motion.h5 variants={animateOne}>
+            <motion.h5 variants={animateStyle}>
               I build full-Stack/MERN-Stack, UX/UI and responsive web
               application.
             </motion.h5>
-            <motion.h5 variants={animateOne}>
+            <motion.h5 variants={animateStyle}>
               I always look forward to explore and learn more!
             </motion.h5>
           </div>
@@ -93,7 +93,7 @@ const Header = () => {
             <BsTwitter />
           </a>
         </div>
-        <div>
+        <div initial="initial" animate="animate" className="art">
           <img src={ME} alt="img" />
         </div>
         <a href="#contact" className="scroll_down">
