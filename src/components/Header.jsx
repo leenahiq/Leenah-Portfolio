@@ -55,8 +55,8 @@ const Header = () => {
             </motion.h5>
           </div>
         </motion.div>
-        <motion.div variants={animateStyle} className="cta">
-          <button
+        <div className="cta">
+          <a
             href={CV}
             download
             className="btn"
@@ -64,11 +64,11 @@ const Header = () => {
             rel="noreferrer"
           >
             Download CV
-          </button>
-          <button href="#contact" className="btn btn-primary">
+          </a>
+          <a href="#contact" className="btn btn-primary">
             Let's Talk
-          </button>
-        </motion.div>
+          </a>
+        </div>
 
         <div className="header__socials">
           <a
