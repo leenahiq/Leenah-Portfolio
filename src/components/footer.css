@@ -4,7 +4,7 @@ footer {
   height: 9rem;
   background-color: var(--color-bg-varient);
 }
-footer h3 {
+footer h5 {
   text-align: center;
 }
 
@@ -13,5 +13,5 @@ footer h3 {
   justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap;
-  margin-top: 5.5rem;
+  margin-top: 5.9rem;
 }

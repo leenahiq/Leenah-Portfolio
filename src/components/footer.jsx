@@ -4,10 +4,10 @@ import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <h3>
-        Leenah Iqbal
+      <h5>
+        Build and designed by Leenah Iqbal 2022
         <BiCopyright />
-      </h3>
+      </h5>
       <div className="footer_icon">
         <a
           href="https://www.linkedin.com/in/leenah-iqbal/"
