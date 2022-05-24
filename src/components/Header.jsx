@@ -54,51 +54,55 @@ const Header = () => {
               I always look forward to explore and learn more!
             </motion.h5>
           </div>
-        </motion.div>
-        <div className="cta">
-          <a
-            href={CV}
-            download
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download CV
-          </a>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
-        </div>
 
-        <div className="header__socials">
-          <a
-            href="https://www.linkedin.com/in/leenah-iqbal/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsLinkedin />
+          <motion.div variants={animateStyle} className="cta">
+            <a
+              href={CV}
+              download
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+            </a>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </motion.div>
+
+          <div className="header__socials">
+            <motion.a
+              variants={animateStyle}
+              href="https://www.linkedin.com/in/leenah-iqbal/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin />
+            </motion.a>
+            <motion.a
+              variants={animateStyle}
+              href="https://github.com/leenahiq"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsGithub />
+            </motion.a>
+            <motion.a
+              variants={animateStyle}
+              href="https://twitter.com/LeenahIqbal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsTwitter />
+            </motion.a>
+          </div>
+          <motion.div variants={animateStyle} className="art">
+            <img src={ME} alt="img" />
+          </motion.div>
+          <a href="#contact" className="scroll_down">
+            Contact
           </a>
-          <a
-            href="https://github.com/leenahiq"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub />
-          </a>
-          <a
-            href="https://twitter.com/LeenahIqbal"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsTwitter />
-          </a>
-        </div>
-        <div initial="initial" animate="animate" className="art">
-          <img src={ME} alt="img" />
-        </div>
-        <a href="#contact" className="scroll_down">
-          Contact
-        </a>
+        </motion.div>
       </div>
     </header>
   );

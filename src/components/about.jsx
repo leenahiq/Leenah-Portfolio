@@ -1,9 +1,11 @@
 import "../components/about.css";
 import pic from "../assets/pic.jpeg";
+// import { motion } from "framer-motion";
 const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
+
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
