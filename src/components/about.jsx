@@ -26,8 +26,16 @@ const About = () => {
               <h5>Experience</h5>
               <small>
                 Recently, I completed Develop course IT Level 2 and Master
-                Bootcamp IT Level 4 at Code Nation and am passionate to explore
-                and learn more about new skills and technologies.{" "}
+                Bootcamp IT Level 4 at{" "}
+                <a
+                  href="https://wearecodenation.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Code Nation
+                </a>{" "}
+                and am passionate to explore and learn more about new skills and
+                technologies.{" "}
               </small>
             </article>
             <article className="about-card">
