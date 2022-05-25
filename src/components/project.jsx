@@ -1,10 +1,11 @@
 import apple from "../assets/apple.png";
-// import recipe from "../assets/recipe.png";
+import recipe from "../assets/recipe.png";
 import insta from "../assets/insta.png";
 import dice from "../assets/dice.png";
 import list from "../assets/list.png";
 import poke from "../assets/poke.png";
 import drum from "../assets/drum.png";
+import travel from "../assets/travel.png";
 import "../components/project.css";
 import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
 
@@ -12,20 +13,60 @@ const Project = () => {
   return (
     <section id="projects">
       <h2>Portfolio</h2>
-      <div>
-        {/* <article className="portfolio_items">
-          <div className="portfolio_item-image">
-            <img className="" src={recipe} alt="recipe site" />
+
+      <div className="container portfolio_container1">
+        <article className="portfolio_item">
+          <h3>What's Cookin!</h3>
+          <div className="portfolio_item-image1">
+            <img className="recipe" src={recipe} alt="recipe site" />
           </div>
-          <h3>project 1</h3>
-          <a href="/" className="btn1">
-           <BsGithub className="project-icon"/>
-          </a>
-          <a href="/" className="btn1 ">
-            Live Demo
-          </a>
-        </article> */}
+          <p>MERN Stack Recipe APP</p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/leenahiq/What-s-Cooking"
+              target="_blank"
+              rel="noreferrer"
+              className="btn1"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a
+              href="https://what-s-cookin.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn1 "
+            >
+              <BsFillPlayCircleFill className="project-icon" />
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <h3>Leenah Travel</h3>
+          <div className="portfolio_item-image1">
+            <img className="recipe" src={travel} alt="recipe site" />
+          </div>
+          <p>HTML and CSS website</p>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/leenahiq/leenah-travel"
+              target="_blank"
+              rel="noreferrer"
+              className="btn1"
+            >
+              <BsGithub className="project-icon" />
+            </a>
+            <a
+              href="https://leenahiq.github.io/leenah-travel/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn1 "
+            >
+              <BsFillPlayCircleFill className="project-icon" />
+            </a>
+          </div>
+        </article>
       </div>
+
       <div className="container portfolio_container">
         <article className="portfolio_item">
           <h3>Apple Clone</h3>
